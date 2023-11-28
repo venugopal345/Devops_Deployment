@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style type="text/css">
+.a{
+position: relative;
+top: 150px;
+}
+.body{
+height:900vh;
+width:900vw;
+ background-image: url("https://cutewallpaper.org/28/cricket-stadium-wallpaper-for-walls/1136015730.jpg");
+/*background-image: linear-Gradient(to right,red,yellow);*/
+}
+
+.adiv{
+height: 60px;
+width: 500px;
+border: solid 2px black;
+text-align: center;
+position: relative;
+left: 32%;
+background-color: fuchsia;
+}
+.log{
+
+height: 30px;
+width: 90px;
+background-color: aqua;
+position: relative;
+left: 780%;
+top: 250%;
+text-decoration:none;
+}
+.tr{
+position: relative;
+top: 250%;
+}
+.stats{
+
+height: 40px;
+width: 90px;
+background-color: aqua;
+position: relative;
+left: 780%;
+top: 450%;
+}
+
+.stats1{
+
+height: 40px;
+width: 90px;
+background-color: aqua;
+position: relative;
+left: 780%;
+top: 750%;
+}
+</style>
+</head>
+<body class="body">
+
+<form action="" method="post">
+
+<div class="adiv">
+<h2>Welcome to cricket11 club</h2>
+</div>
+
+	<table class="a" >
+	
+	<tr class="tr">
+	<td>  <button type="submit" class="log">  <a href="Bcci_login.html"> Admin Login </a>  </button>   </td>
+	</tr>
+	
+	<tr class="tr1">
+	<td>  <button type="submit" class="stats"><a href="fetchall_players.html">All Players Info </a> </button> </td>
+	</tr>
+	
+	<tr class="tr2">
+	<td>  <button type="submit" class="stats1"><a href="fetch_id.html">Individual Player Info </a> </button> </td>
+	</tr>
+	
+	</table>
+
+	</form>
+
+</body>
+</html>
