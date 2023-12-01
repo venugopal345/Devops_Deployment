@@ -11,7 +11,7 @@
 			<property name="javax.persistence.jdbc.driver"
 				value="com.mysql.cj.jdbc.Driver" />
 			<property name="javax.persistence.jdbc.url"
-				value="jdbc:mysql://bravo.cyfoi0jzjj6j.ap-south-1.rds.amazonaws.com:3306/bravo?createDatabaseIfNotExist=true" />
+				value="jdbc:mysql://bravo1.cyfoi0jzjj6j.ap-south-1.rds.amazonaws.com:3306/bravo1?createDatabaseIfNotExist=true" />
 			<property name="javax.persistence.jdbc.user"
 				value="admin" />
 			<property name="javax.persistence.jdbc.password"
